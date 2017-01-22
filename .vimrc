@@ -170,10 +170,6 @@
     Plugin 'joonty/vdebug'
     " The fancy start screen for Vim
     Plugin 'mhinz/vim-startify'
-
-    " Startify {
-        autocmd VimEnter * Startify
-    " }
     
     " Fugitive {
         autocmd QuickFixCmdPost *grep* cwindow
@@ -365,4 +361,5 @@
 " @partial Key re(Mappings)[class KeyMappings.Simple, interface Plugins.Many] {
     nmap <F8> :TagbarToggle<CR>
     nmap <F2> :NERDTreeToggle<CR>
+    nmap <C-n> :Startify<CR>
 " }
